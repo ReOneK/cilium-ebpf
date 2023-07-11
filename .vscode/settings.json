@@ -2,4 +2,12 @@
     "files.associations": {
         "bpf.h": "c"
     }
+}{
+    "files.associations": {
+        "ptrace.h": "c",
+        "sock.h": "c",
+        "common.h": "c",
+        "bpf_endian.h": "c",
+        "bpf_tracing.h": "c"
+    }
 }

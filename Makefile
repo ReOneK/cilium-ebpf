@@ -1,9 +1,9 @@
 CLANG ?= clang
 CFLAGS := -O2 -g -Wall
 
-build: generate
-	cd cmd/ringbuffer && \
-	go build -o ../../bin/ringbuffer .
+build: 
+	cd cmd/tcplatency && \
+	go build -o ../../bin/tcplatency .
 
 generate: export BPF_CLANG := $(CLANG)
 generate: export BPF_CFLAGS := $(CFLAGS)
